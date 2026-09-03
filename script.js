@@ -14,7 +14,6 @@ document.addEventlistener('DOMContentLoaded', () => {
 
 		socialButtons.forEach(button => {
 			button.addEvenListener('click', (event) => {
-				const platform = button.textContent;
 				alert('Anda memilih untuk membuka tautan ${platform}.');
 			});
 		});
